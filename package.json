@@ -5,7 +5,7 @@
   "scripts": {
     "prestart": "npm install",
     "start": "node ./bin/www",
-    "postinstall": "./node_modules/bower/bin/bower install",
+    "postinstall": "bower install",
     "update-deps": "npm update",
     "postupdate-deps": "bower update"
   },
