@@ -2,7 +2,7 @@
 
 // Declare app level module which depends on views, and components
 var app = angular.module('ihm', [
-  'ngRoute', 'ngMaterial'
+  'ngRoute'
 ]);
 
 app.config(['$routeProvider', function($routeProvider) {
