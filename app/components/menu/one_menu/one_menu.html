@@ -1,0 +1,19 @@
+<md-fab-speed-dial md-open="menu.isOpen" md-direction="{{direction}}" class="md-scale">
+    <md-fab-trigger>
+        <md-button aria-label="menu" class="md-fab md-warn">
+            <md-icon md-svg-src="assets/img/icons/icon-hamburger-light.svg"></md-icon>
+        </md-button>
+    </md-fab-trigger>
+
+    <md-fab-actions ng-show="menu.isOpen" >
+        <md-button aria-label="Test11" class="md-fab md-raised md-mini">
+            <md-icon md-font-icon="fa-user-plus" class="fa" aria-label="Test1"></md-icon>
+        </md-button>
+        <md-button aria-label="Test21" class="md-fab md-raised md-mini">
+            <md-icon md-font-icon="fa-folder" class="fa" aria-label="Test2"></md-icon>
+        </md-button>
+        <md-button aria-label="Test31" class="md-fab md-raised md-mini">
+            <md-icon md-font-icon="fa-google" class="fa" aria-label="Test3"></md-icon>
+        </md-button>
+    </md-fab-actions>
+</md-fab-speed-dial>
